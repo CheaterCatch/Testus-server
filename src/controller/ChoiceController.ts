@@ -4,20 +4,6 @@ import {Test} from "../entity/Test";
 import {Question} from "../entity/Question";
 
 export class ChoiceController {
-    /*static addChoice = async (req, res) => {
-        const {test_id, content} = req.body;
-        const {content} = req.body;
-
-        const question = await getConnection().getRepository(Question).findOne({id: test_id});
-
-        const choice = new Choice();
-        choice.content = content;
-        choice.question = question;
-        await getConnection().getRepository(Choice).save(choice);
-
-        res.send(choice);
-    }*/
-
     static findAllChoice = async (req, res) => {
         const {question_id} = req.query;
 
