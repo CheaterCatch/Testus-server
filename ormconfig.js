@@ -2,10 +2,10 @@ const SnakeNamingStrategy = require("typeorm-naming-strategies").SnakeNamingStra
 
 module.exports = {
     "type": "mysql",
-    "host": "develop-catcher-db.cuplkaqohecx.ap-northeast-2.rds.amazonaws.com",
+    "host": [호스트주소],
     "port": 3306,
-    "username": "catcher",
-    "password": "catcher5",
+    "username": [username],
+    "password": [password],
     "database": "catcherdb",
     "synchronize": true,
     "logging": true,
