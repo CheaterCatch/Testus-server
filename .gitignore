@@ -4,3 +4,4 @@ node_modules
 package-lock.json
 Jimining_Backend-main.iml
 *.iml
+.env
